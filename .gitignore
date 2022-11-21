@@ -1,0 +1,12 @@
+/node_modules
+
+/coverage
+
+/build
+
+.DS_store
+.vscode
+
+npm-debug.log*
+
+**/*.iml

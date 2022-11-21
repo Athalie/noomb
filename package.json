@@ -1,0 +1,34 @@
+{
+  "name": "projects",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "bootstrap": "yarn && yarn workspace client install",
+    "start": "yarn workspace client start",
+    "client:add": "yarn workspace client add",
+    "client:rm": "yarn workspace client remove",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "npm": "use yarn",
+    "node": "^18"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "husky": "^8.0.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
