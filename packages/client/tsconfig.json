@@ -14,9 +14,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "paths": {
       "@noomb/*": ["ui-primitives/*"],
+      "components/*": ["components/*"],
+      "mocks/*": ["mocks/*"],
     },
   },
   "include": [

@@ -1,1 +1,1 @@
-export { Tabs } from './tabs';
+export { NoombTabs } from './tabs';

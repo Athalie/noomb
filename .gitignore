@@ -1,12 +1,15 @@
-/node_modules
+**/node_modules
 
 /coverage
-
-/build
 
 .DS_store
 .vscode
 
+dist
+
 npm-debug.log*
 
 **/*.iml
+
+.idea
+

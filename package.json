@@ -6,9 +6,12 @@
   "scripts": {
     "bootstrap": "yarn && yarn workspace client install",
     "start": "yarn workspace client start",
+    "build": "yarn workspace client build",
     "client:add": "yarn workspace client add",
     "client:rm": "yarn workspace client remove",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy" : "yarn bootstrap && yarn run build",
+    "deploy" : "gh-pages -d build"
   },
   "engines": {
     "npm": "use yarn",

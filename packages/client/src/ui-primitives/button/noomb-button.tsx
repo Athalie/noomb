@@ -1,5 +1,4 @@
-import React, { ReactNode } from 'react';
-import styles from './noomb-button.sass';
+import { ReactNode } from 'react';
 
 type NoombButtonType = 'accent' | 'secondary' | 'primary';
 
