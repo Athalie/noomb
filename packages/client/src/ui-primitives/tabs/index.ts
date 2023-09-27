@@ -1,0 +1,1 @@
+export { NoombTabs } from './tabs';

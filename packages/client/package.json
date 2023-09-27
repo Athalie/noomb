@@ -1,0 +1,53 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node_modules/.bin/vite",
+    "build": "node_modules/.bin/tsc && vite build",
+    "preview": "node_modules/.bin/vite preview"
+  },
+  "engines": {
+    "npm": "use yarn",
+    "node": "^18"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@mantine/carousel": "^6.0.17",
+    "@mantine/core": "^6.0.13",
+    "@mantine/form": "^7.0.2",
+    "@mantine/hooks": "^6.0.13",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/react-redux": "^7.1.25",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.9",
+    "embla-carousel-react": "^8.0.0-rc11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.7",
+    "react-router-dom": "^6.4.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.10",
+    "husky": "^8.0.2",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.15.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-tsconfig-paths": "^4.2.0"
+  }
+}

@@ -1,0 +1,15 @@
+**/node_modules
+
+/coverage
+
+.DS_store
+.vscode
+
+dist
+
+npm-debug.log*
+
+**/*.iml
+
+.idea
+
